@@ -1,11 +1,9 @@
-
 #include "stdafx.h"
 #include <iostream>
 #include <sstream>
 using namespace std;
 float **mat, **mat1, **c;
 void inversiya(float **A, float **c, unsigned int x)
-
 {
 	float temp;
 	float **E = new float *[x];
@@ -180,7 +178,6 @@ int main()
 			cout << '\n';
 		}
 	}
-
 	for (int i = 0; i < x; i++) {
 		delete[] mat[i];
 	}
